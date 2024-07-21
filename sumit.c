@@ -7,4 +7,5 @@ int main()
     scanf("%lf%lf",&first_Number,&second_Number);
     sum=first_Number+second_Number;
     printf("sum=%lf",sum)
+        return 0;
 }
