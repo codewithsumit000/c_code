@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sumit Khadka</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        
+        header {
+            background: rgb(161, 154, 239);
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            height: 60px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #cce7d0;
+        }
+
+       
+        section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        #home {
+    background: url('face.jpg') no-repeat center center fixed; 
+    background-size:80% 150%;
+    padding: 20px 40px;
+   
+    height: 150vh; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+        
+
+        #projects {
+            background: #f4f4f4;
+        }
+
+        #about {
+            background: #fff;
+        }
+
+        #contact {
+            background: #f9f9f9;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgb(144, 208, 248);
+            color: white;
+            margin-top: 20px;
+        }
+
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+        .icone {
+            display: flex;
+            justify-content: center;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Sumit khadka</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1 >Welcome to My Portfolio</h1>
+        <p>Hi, I'm Sumit Khadka - A Passionate Developer</p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Check out some of my work:</p>
+        <ul>
+            <li>Project 1: <a href="sumit.html" target="_blank">Table labeling</a></li>
+            <li>Project 2: <a href="newnav.html" target="_blank">virat kholi</a></li>
+            <li>Project 3: <a href="Nav.html" target="_blank">website sample</a></li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a self-taught developer specializing in front-end development, passionate about creating engaging and dynamic web experiences.</p>
+        <h3>Skills</h3>
+    <ul class="skills-list">
+        <li><strong>HTML:</strong> Proficient in semantic HTML and building accessible web structures.</li>
+        <li><strong>CSS:</strong> Skilled in creating responsive layouts, animations, and styling with modern CSS techniques.</li>
+        <li><strong>JavaScript:</strong> Experienced in dynamic web applications, DOM manipulation, and ES6+ features.</li>
+        <li><strong>C Programming:</strong> Solid understanding of structured programming, algorithms, and debugging.</li>
+        <li><strong>Python:</strong> Proficient in scripting, data analysis, and automation tasks with libraries like Pandas and NumPy.</li>
+    </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sumitkhadka969@gmail.com">sumitkhadka969@gmail.com</a></p>
+        <p>Phone: 9823484507</p>
+        <div class="icone">
+        <p><a href="https://www.linkedin.com/in/sumit-khadka-810b262a5/" target="_blank"><i class="ri-linkedin-box-fill"></i></a></p>
+        <p><a href="https://www.facebook.com/profile.php?id=61550657661774" target="_blank"><i class="ri-facebook-circle-line"></i></a></p>
+        <p><a href="https://www.instagram.com/sumit_khadka00/?hl=en" target="_blank"><i class="ri-instagram-line"></i></a></p>
+    </div>
+    </section>
+
+    
+    <footer>
+        <p>© 2024 Sumit Khadka. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
